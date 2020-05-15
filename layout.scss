@@ -137,7 +137,7 @@ top: 0;
     @media(max-width: 799px)
     {
         flex-basis: 100%;
-        margin-bottom: 15px;
+        //margin-bottom: 15px;
         color: silver;
         display: flex;
         flex-wrap: wrap;
@@ -146,6 +146,7 @@ top: 0;
         min-height: 200px;
         //font-family: 'spartan', sans-serif;
         font-family: 'Lobster', cursive;
+        background-color: #222222;
     }
     @media(min-width: 800px)
     {
@@ -177,11 +178,12 @@ top: 0;
     @media(min-width: 800px)
     {
         flex-basis: 100%;
-        margin-bottom: 5px;
+        //margin-bottom: 5px;
         height: 60px;
         font-size: 18px;
         color: silver;
         display: flex;
+        background-color: #222222;
         justify-content: center;
         align-items: center;
         font-family: 'Lobster',cursive;
@@ -247,7 +249,7 @@ align-items: center;
 .footer__adnotation
 {
     flex-basis: 90%;
-    margin-top: 5px;
+    margin-top: 30px;
     height: 40px;
     display: flex;
 align-items: center;

@@ -184,7 +184,6 @@
   .footer {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: 15px;
     color: silver;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -199,6 +198,7 @@
             align-items: center;
     min-height: 200px;
     font-family: 'Lobster', cursive;
+    background-color: #222222;
   }
 }
 
@@ -243,13 +243,13 @@
   .footer__bigger {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: 5px;
     height: 60px;
     font-size: 18px;
     color: silver;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #222222;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -332,7 +332,7 @@
 .footer__adnotation {
   -ms-flex-preferred-size: 90%;
       flex-basis: 90%;
-  margin-top: 5px;
+  margin-top: 30px;
   height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
