@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-$header-color: #222;
+$header-color: silver;
+$bgcolor: lightblue;
 .content__indexcontainer
 {
    flex-basis: 100%;
@@ -11,7 +12,7 @@ $header-color: #222;
    {
     min-height: calc(100vh - 140px);
    }
-    background-color: red;
+    background-color: #222222;
     display: flex;
     flex-wrap: wrap;
 }
@@ -47,17 +48,19 @@ $header-color: #222;
     @media(min-width: 800px)
     {
         @include indexcontainerbigger();
+        margin-top: 20px;
         &--photo
         {
-            width: 300px;
+            width: 400px;
 	    height: 300px;
-	border-bottom: 300px solid gray;
-	border-right: 300px solid transparent;
+	border-bottom: 300px solid;
+    border-right: 100px solid transparent;
+    border-left: 0px solid transparent;
     margin: 0 0 0;
     transform: translateX(150px);
     img
     {
-        width: 300px;
+        width: 400px;
         height: 300px;
         object-fit: cover;
     }
@@ -66,15 +69,15 @@ $header-color: #222;
         
         &--content
         {
-            width: calc(100vw);
+            width: calc(100vw - 100px);
 	height: 300px;
 	border-right: 0px solid transparent;
 	border-left: 300px solid transparent;
-	border-top: 300px solid lightseagreen;
+	border-top: 300px solid $bgcolor;
     margin: 0 0 0;
             transform: translateX(-150px);
             //z-index: 2;
-            color: black;
+            color: white;
             display: flex;
             flex-wrap: wrap;
             &-header
@@ -100,7 +103,6 @@ $header-color: #222;
             }
         }
     }
-background-color: rebeccapurple;
 }
 .index__oferta
 {
@@ -123,35 +125,37 @@ background-color: rebeccapurple;
     @media(min-width: 800px)
     {
         @include indexcontainerbigger();
+        margin-top: 30px;
         &--photo
         {
-            width: 300px;
+            width: 400px;
 	    height: 300px;
-	border-bottom: 300px solid gray;
-    border-left: 300px solid transparent;
+        border-bottom: 300px solid;
+        border-right: 300px solid transparent;
+        border-right: 0px solid transparent;
     margin: 0 0 0;
     transform: translateX(-150px);
     img
     {
-        width: 300px;
+        width: 400px;
         height: 300px;
         object-fit: cover;
-        transform: translateX(-300px);
+        transform: translateX(0px);
     }
     //z-index: 1;
         }
         
         &--content
         {
-            width: calc(100vw);
+            width: calc(100vw - 100px);
 	height: 300px;
 	border-left: 0px solid transparent;
 	border-right: 300px solid transparent;
-	border-top: 300px solid lightskyblue;
+	border-top: 300px solid $bgcolor;
     margin: 0 0 0;
             transform: translateX(150px);
             z-index: 1;
-            color: black;
+            color: white;
             &-header
             {
                 width: 100%;
@@ -169,7 +173,7 @@ background-color: rebeccapurple;
                 top: -300px;
                 padding-bottom: 10px;
                 padding-right: 5px;
-                padding-left: 10px;
+                padding-left: 30px;
                 font-size: 19px;
                 font-family: 'lato',sans-serif;
             }
@@ -198,17 +202,20 @@ background-color: rebeccapurple;
     @media(min-width: 800px)
     {
         @include indexcontainerbigger();
+        margin-top: 30px;
+        margin-bottom: 20px;
         &--photo
         {
-            width: 300px;
+            width: 400px;
 	    height: 300px;
-	border-bottom: 300px solid gray;
-	border-right: 300px solid transparent;
+	border-bottom: 300px solid;
+    border-right: 300px solid transparent;
+    border-left: 0px solid transparent;
     margin: 0 0 0;
     transform: translateX(150px);
     img
     {
-        width: 300px;
+        width: 400px;
         height: 300px;
         object-fit: cover;
     }
@@ -217,15 +224,15 @@ background-color: rebeccapurple;
         
         &--content
         {
-            width: calc(100vw);
-	height: 300px;
-	border-right: 0px solid transparent;
-	border-left: 300px solid transparent;
-	border-top: 300px solid lightpink;
-    margin: 0 0 0;
-            transform: translateX(-150px);
+            width: calc(100vw - 100px);
+            height: 300px;
+            border-right: 0px solid transparent;
+            border-left: 300px solid transparent;
+            border-top: 300px solid $bgcolor;
+            margin: 0 0 0;
+                    transform: translateX(-150px);
             //z-index: 2;
-            color: black;
+            color: white;
             &-header
             {
                 width: 100%;

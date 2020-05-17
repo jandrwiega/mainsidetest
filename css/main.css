@@ -2,7 +2,7 @@
 .content__indexcontainer {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  background-color: red;
+  background-color: #222222;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,10 +20,6 @@
   .content__indexcontainer {
     min-height: calc(100vh - 140px);
   }
-}
-
-.index__onas {
-  background-color: rebeccapurple;
 }
 
 @media (max-width: 799px) {
@@ -52,32 +48,34 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    margin-top: 20px;
   }
   .index__onas--photo {
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border-bottom: 300px solid gray;
-    border-right: 300px solid transparent;
+    border-bottom: 300px solid;
+    border-right: 100px solid transparent;
+    border-left: 0px solid transparent;
     margin: 0 0 0;
     -webkit-transform: translateX(150px);
             transform: translateX(150px);
   }
   .index__onas--photo img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .index__onas--content {
-    width: calc(100vw);
+    width: calc(100vw - 100px);
     height: 300px;
     border-right: 0px solid transparent;
     border-left: 300px solid transparent;
-    border-top: 300px solid lightseagreen;
+    border-top: 300px solid lightblue;
     margin: 0 0 0;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
-    color: black;
+    color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -87,7 +85,7 @@
   .index__onas--content-header {
     width: 100%;
     padding: 10px;
-    color: #222;
+    color: silver;
     font-size: 36px;
     position: relative;
     left: -200px;
@@ -135,40 +133,42 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    margin-top: 30px;
   }
   .index__oferta--photo {
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border-bottom: 300px solid gray;
-    border-left: 300px solid transparent;
+    border-bottom: 300px solid;
+    border-right: 300px solid transparent;
+    border-right: 0px solid transparent;
     margin: 0 0 0;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
   }
   .index__oferta--photo img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
-    -webkit-transform: translateX(-300px);
-            transform: translateX(-300px);
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
   .index__oferta--content {
-    width: calc(100vw);
+    width: calc(100vw - 100px);
     height: 300px;
     border-left: 0px solid transparent;
     border-right: 300px solid transparent;
-    border-top: 300px solid lightskyblue;
+    border-top: 300px solid lightblue;
     margin: 0 0 0;
     -webkit-transform: translateX(150px);
             transform: translateX(150px);
     z-index: 1;
-    color: black;
+    color: white;
   }
   .index__oferta--content-header {
     width: 100%;
     padding: 10px;
-    color: #222;
+    color: silver;
     font-size: 36px;
     position: relative;
     left: 100%;
@@ -180,7 +180,7 @@
     top: -300px;
     padding-bottom: 10px;
     padding-right: 5px;
-    padding-left: 10px;
+    padding-left: 30px;
     font-size: 19px;
     font-family: 'lato',sans-serif;
   }
@@ -216,37 +216,40 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   .index__kontakt--photo {
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border-bottom: 300px solid gray;
+    border-bottom: 300px solid;
     border-right: 300px solid transparent;
+    border-left: 0px solid transparent;
     margin: 0 0 0;
     -webkit-transform: translateX(150px);
             transform: translateX(150px);
   }
   .index__kontakt--photo img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   .index__kontakt--content {
-    width: calc(100vw);
+    width: calc(100vw - 100px);
     height: 300px;
     border-right: 0px solid transparent;
     border-left: 300px solid transparent;
-    border-top: 300px solid lightpink;
+    border-top: 300px solid lightblue;
     margin: 0 0 0;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
-    color: black;
+    color: white;
   }
   .index__kontakt--content-header {
     width: 100%;
     padding: 10px;
-    color: #222;
+    color: silver;
     font-size: 36px;
     position: relative;
     left: -200px;
