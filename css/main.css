@@ -48,6 +48,8 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
     margin-top: 20px;
   }
   .index__onas--photo {
@@ -71,11 +73,11 @@
     height: 300px;
     border-right: 0px solid transparent;
     border-left: 300px solid transparent;
-    border-top: 300px solid lightblue;
+    border-top: 300px solid #0088cc;
     margin: 0 0 0;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
-    color: white;
+    color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -103,10 +105,6 @@
   }
 }
 
-.index__oferta {
-  background-color: rebeccapurple;
-}
-
 @media (max-width: 799px) {
   .index__oferta {
     -ms-flex-preferred-size: 100%;
@@ -134,6 +132,8 @@
     display: flex;
     overflow: hidden;
     margin-top: 30px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   .index__oferta--photo {
     width: 400px;
@@ -158,12 +158,12 @@
     height: 300px;
     border-left: 0px solid transparent;
     border-right: 300px solid transparent;
-    border-top: 300px solid lightblue;
+    border-top: 300px solid #0088cc;
     margin: 0 0 0;
     -webkit-transform: translateX(150px);
             transform: translateX(150px);
     z-index: 1;
-    color: white;
+    color: black;
   }
   .index__oferta--content-header {
     width: 100%;
@@ -184,10 +184,6 @@
     font-size: 19px;
     font-family: 'lato',sans-serif;
   }
-}
-
-.index__kontakt {
-  background-color: rebeccapurple;
 }
 
 @media (max-width: 799px) {
@@ -216,6 +212,8 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -240,11 +238,11 @@
     height: 300px;
     border-right: 0px solid transparent;
     border-left: 300px solid transparent;
-    border-top: 300px solid lightblue;
+    border-top: 300px solid #0088cc;
     margin: 0 0 0;
     -webkit-transform: translateX(-150px);
             transform: translateX(-150px);
-    color: white;
+    color: black;
   }
   .index__kontakt--content-header {
     width: 100%;
